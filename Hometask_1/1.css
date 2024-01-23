@@ -1,0 +1,39 @@
+body {
+  max-width: 900px;
+  font-family: system-ui;
+  background: #F2EBC9;
+  color: #00128F;
+  margin: 0 auto;
+}
+
+p {
+  text-indent: 1.5em;
+}
+
+.main-img {
+  border: 2px solid #00128F;
+  display: block;
+  margin: auto;
+}
+
+ul li::marker {
+  color: red;
+}
+
+nav li::marker {
+  color: red;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.korgi_1 {
+  display: block;
+  margin: auto;
+}
+
+.korgi_2 {
+  display: block;
+  margin: auto;
+}
