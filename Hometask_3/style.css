@@ -1,0 +1,88 @@
+:root {
+    --font-color: #ebb582;
+    --bg-color: #301b28;
+    --board-color: #523634;
+    --x-color: #1e0000;
+    --o-color: #f1f3ce;
+    --game-width: 450px;
+    --message-color: #2e2300;
+    --font-family: 'Rubik Bubbles';
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: #a57c65;
+    margin: 2rem 0;
+    font-size: 24px;
+    line-height: 1.5;
+    padding: 0;
+    font-family: 'Rubik Bubbles', sans-serif;
+    color: #ebb582;
+}
+
+#game {
+    max-width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.score {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.row,
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col {
+    cursor: pointer;
+    border: 1px solid #523634;
+    margin: 5px;
+    height: 120px;
+    width: 120px;
+    line-height: 0;
+
+    border-radius: 4px;
+    font-size: 40px;
+}
+
+.col:hover {
+    border: 5px solid #523634;
+}
+
+.x {
+    color: #1e0000;
+}
+
+.o {
+    display: inline-block;
+    color: #f1f3ce;
+}
+
+.mode-selection {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.mode-selection label {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.mode-selection input[type="radio"] {
+    margin-right: 10px;
+}
+
+.message {
+    margin-top: 10px;
+    text-align: center;
+    color: #2e2300;
+}
